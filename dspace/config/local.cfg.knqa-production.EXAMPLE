@@ -1,0 +1,34 @@
+# KNQA Digital Repository — production local.cfg template
+# Copy to local.cfg on the production backend server and adjust secrets.
+# Only properties that differ from dspace.cfg defaults belong here.
+
+dspace.dir = /dspace
+
+# Public URLs — backend (REST) and user interface
+dspace.server.url = https://repository.knqa.go.ke/server
+dspace.server.ssr.url = ${dspace.server.url}
+dspace.ui.url = https://repository.knqa.go.ke
+
+dspace.name = KNQA Digital Repository
+
+# Database
+db.url = jdbc:postgresql://localhost:5432/dspace
+db.username = dspace
+db.password = CHANGE_ME
+
+# Solr
+solr.server = http://localhost:8983/solr
+
+# Mail
+mail.server = smtp.knqa.go.ke
+mail.from.address = repository@knqa.go.ke
+mail.feedback.recipient = info@knqa.go.ke
+mail.admin = repository-admin@knqa.go.ke
+
+# CORS — every origin the Angular UI is served from.
+# ${dspace.ui.url} covers production; add http://localhost:4000 only while testing
+# a local dev UI against this backend.
+rest.cors.allowed-origins = ${dspace.ui.url}
+
+# Default language
+default.locale = en
