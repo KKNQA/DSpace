@@ -9,3 +9,5 @@ services:
       dspace__P__ui__P__url: http://localhost:4000
       # Allow the Angular dev server origin to call this backend
       rest__P__cors__P__allowed__D__origins: 'http://localhost:4000'
+      # No self-registration (same as local.cfg.knqa-production.EXAMPLE)
+      user__P__registration: 'false'

@@ -32,3 +32,8 @@ rest.cors.allowed-origins = ${dspace.ui.url}
 
 # Default language
 default.locale = en
+
+# Accounts are created by administrators only: disables self-registration on the
+# server and hides the "New user? Click here to register" link in the Angular UI.
+# Password login and "Forgot password" keep working.
+user.registration = false
