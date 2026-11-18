@@ -22,7 +22,7 @@ solr.server = http://localhost:8983/solr
 # Mail
 mail.server = smtp.knqa.go.ke
 mail.from.address = repository@knqa.go.ke
-mail.feedback.recipient = info@knqa.go.ke
+feedback.recipient = info@knqa.go.ke
 mail.admin = repository-admin@knqa.go.ke
 
 # CORS — every origin the Angular UI is served from.
