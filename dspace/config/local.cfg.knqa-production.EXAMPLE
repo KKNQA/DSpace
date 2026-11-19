@@ -37,3 +37,10 @@ default.locale = en
 # server and hides the "New user? Click here to register" link in the Angular UI.
 # Password login and "Forgot password" keep working.
 user.registration = false
+
+# Describe > Type uses the KNQA document-type vocabulary (controlled-vocabularies/knqa_types.xml).
+# Store only the type ("Occupational standard"), not its group path.
+vocabulary.plugin.knqa_types.hierarchy.store = false
+
+# OAI-PMH identifiers (oai:<prefix>:<handle>). Keep this value: harvesters store it.
+oai.identifier.prefix = erepository.knqa.go.ke

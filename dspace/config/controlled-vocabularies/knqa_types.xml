@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  KNQA document types: the vocabulary behind Describe > Type (dc.type) in submission.
+  Loaded automatically as the "knqa_types" vocabulary (see dspace/config/KNQA_CONFIG.md).
+
+  - Groups have selectable="false": only the types inside them can be chosen.
+  - Only the type label is stored (vocabulary.plugin.knqa_types.hierarchy.store = false).
+  - hasNote = "COAR: <type>", the COAR resource type the label is exported as through OAI-PMH
+    (oai_openaire). After adding or renaming a type, run  python3 knqa/knqa_types_to_oai.py
+    from the repository root to update oai_openaire.xsl.
+  - To add a type: copy a <node> inside the right group, give it a new unique id and label.
+  - Never change an id once items use it; labels can be renamed (then update existing items).
+-->
+<node id="knqa_types" label="KNQA document types" selectable="false">
+    <isComposedBy>
+        <node id="knqa_qs" label="Qualifications &amp; Standards" selectable="false">
+            <isComposedBy>
+                <node id="knqa_qs_qualification_standard" label="Qualification standard">
+                    <hasNote>COAR: technical documentation</hasNote>
+                </node>
+                <node id="knqa_qs_occupational_standard" label="Occupational standard">
+                    <hasNote>COAR: technical documentation</hasNote>
+                </node>
+                <node id="knqa_qs_curriculum" label="Curriculum">
+                    <hasNote>COAR: technical documentation</hasNote>
+                </node>
+                <node id="knqa_qs_level_descriptors" label="Level descriptors">
+                    <hasNote>COAR: technical documentation</hasNote>
+                </node>
+                <node id="knqa_qs_assessment_guidelines" label="Assessment guidelines">
+                    <hasNote>COAR: technical documentation</hasNote>
+                </node>
+            </isComposedBy>
+        </node>
+        <node id="knqa_qa" label="Quality Assurance &amp; Accreditation" selectable="false">
+            <isComposedBy>
+                <node id="knqa_qa_accreditation_report" label="Accreditation report">
+                    <hasNote>COAR: report</hasNote>
+                </node>
+                <node id="knqa_qa_quality_audit_report" label="Quality audit report">
+                    <hasNote>COAR: report</hasNote>
+                </node>
+                <node id="knqa_qa_compliance_report" label="Compliance report">
+                    <hasNote>COAR: report</hasNote>
+                </node>
+                <node id="knqa_qa_register_of_qualifications" label="Register of qualifications">
+                    <hasNote>COAR: text</hasNote>
+                </node>
+            </isComposedBy>
+        </node>
+        <node id="knqa_plr" label="Policy, Legal &amp; Regulatory" selectable="false">
+            <isComposedBy>
+                <node id="knqa_plr_act" label="Act">
+                    <hasNote>COAR: text</hasNote>
+                </node>
+                <node id="knqa_plr_bill" label="Bill">
+                    <hasNote>COAR: text</hasNote>
+                </node>
+                <node id="knqa_plr_regulations" label="Regulations">
+                    <hasNote>COAR: text</hasNote>
+                </node>
+                <node id="knqa_plr_gazette_notice" label="Gazette notice">
+                    <hasNote>COAR: text</hasNote>
+                </node>
+                <node id="knqa_plr_policy" label="Policy">
+                    <hasNote>COAR: text</hasNote>
+                </node>
+                <node id="knqa_plr_framework" label="Framework">
+                    <hasNote>COAR: text</hasNote>
+                </node>
+                <node id="knqa_plr_guidelines" label="Guidelines">
+                    <hasNote>COAR: text</hasNote>
+                </node>
+                <node id="knqa_plr_sop" label="Standard operating procedure">
+                    <hasNote>COAR: text</hasNote>
+                </node>
+                <node id="knqa_plr_procedures_manual" label="Procedures manual">
+                    <hasNote>COAR: text</hasNote>
+                </node>
+                <node id="knqa_plr_circular" label="Circular">
+                    <hasNote>COAR: text</hasNote>
+                </node>
+                <node id="knqa_plr_service_charter" label="Service charter">
+                    <hasNote>COAR: text</hasNote>
+                </node>
+                <node id="knqa_plr_code_of_conduct" label="Code of conduct">
+                    <hasNote>COAR: text</hasNote>
+                </node>
+            </isComposedBy>
+        </node>
+        <node id="knqa_cg" label="Corporate &amp; Governance" selectable="false">
+            <isComposedBy>
+                <node id="knqa_cg_strategic_plan" label="Strategic plan">
+                    <hasNote>COAR: text</hasNote>
+                </node>
+                <node id="knqa_cg_annual_report" label="Annual report">
+                    <hasNote>COAR: report</hasNote>
+                </node>
+                <node id="knqa_cg_work_plan" label="Work plan">
+                    <hasNote>COAR: text</hasNote>
+                </node>
+                <node id="knqa_cg_performance_contract" label="Performance contract">
+                    <hasNote>COAR: text</hasNote>
+                </node>
+                <node id="knqa_cg_performance_report" label="Performance report">
+                    <hasNote>COAR: report</hasNote>
+                </node>
+                <node id="knqa_cg_financial_statement" label="Financial statement">
+                    <hasNote>COAR: report</hasNote>
+                </node>
+                <node id="knqa_cg_audit_report" label="Audit report">
+                    <hasNote>COAR: report</hasNote>
+                </node>
+            </isComposedBy>
+        </node>
+        <node id="knqa_ra" label="Research &amp; Analysis" selectable="false">
+            <isComposedBy>
+                <node id="knqa_ra_research_report" label="Research report">
+                    <hasNote>COAR: research report</hasNote>
+                </node>
+                <node id="knqa_ra_policy_brief" label="Policy brief">
+                    <hasNote>COAR: policy report</hasNote>
+                </node>
+                <node id="knqa_ra_working_paper" label="Working paper">
+                    <hasNote>COAR: working paper</hasNote>
+                </node>
+                <node id="knqa_ra_discussion_paper" label="Discussion paper">
+                    <hasNote>COAR: working paper</hasNote>
+                </node>
+                <node id="knqa_ra_survey_report" label="Survey report">
+                    <hasNote>COAR: research report</hasNote>
+                </node>
+                <node id="knqa_ra_tracer_study" label="Tracer study">
+                    <hasNote>COAR: research report</hasNote>
+                </node>
+                <node id="knqa_ra_labour_market_analysis" label="Labour market analysis">
+                    <hasNote>COAR: research report</hasNote>
+                </node>
+                <node id="knqa_ra_baseline_study" label="Baseline study">
+                    <hasNote>COAR: research report</hasNote>
+                </node>
+                <node id="knqa_ra_evaluation_report" label="Evaluation report">
+                    <hasNote>COAR: report</hasNote>
+                </node>
+                <node id="knqa_ra_concept_note" label="Concept note">
+                    <hasNote>COAR: research proposal</hasNote>
+                </node>
+                <node id="knqa_ra_dataset" label="Dataset">
+                    <hasNote>COAR: dataset</hasNote>
+                </node>
+            </isComposedBy>
+        </node>
+        <node id="knqa_sp" label="Scholarly Publications" selectable="false">
+            <isComposedBy>
+                <node id="knqa_sp_journal_article" label="Journal article">
+                    <hasNote>COAR: journal article</hasNote>
+                </node>
+                <node id="knqa_sp_book" label="Book">
+                    <hasNote>COAR: book</hasNote>
+                </node>
+                <node id="knqa_sp_book_chapter" label="Book chapter">
+                    <hasNote>COAR: book part</hasNote>
+                </node>
+                <node id="knqa_sp_conference_paper" label="Conference paper">
+                    <hasNote>COAR: conference paper</hasNote>
+                </node>
+                <node id="knqa_sp_conference_proceedings" label="Conference proceedings">
+                    <hasNote>COAR: conference proceedings</hasNote>
+                </node>
+                <node id="knqa_sp_thesis" label="Thesis">
+                    <hasNote>COAR: thesis</hasNote>
+                </node>
+            </isComposedBy>
+        </node>
+        <node id="knqa_pa" label="Partnerships &amp; Agreements" selectable="false">
+            <isComposedBy>
+                <node id="knqa_pa_mou" label="Memorandum of understanding">
+                    <hasNote>COAR: text</hasNote>
+                </node>
+                <node id="knqa_pa_agreement" label="Agreement">
+                    <hasNote>COAR: text</hasNote>
+                </node>
+                <node id="knqa_pa_communique" label="Communiqué">
+                    <hasNote>COAR: text</hasNote>
+                </node>
+            </isComposedBy>
+        </node>
+        <node id="knqa_co" label="Communication &amp; Outreach" selectable="false">
+            <isComposedBy>
+                <node id="knqa_co_newsletter" label="Newsletter">
+                    <hasNote>COAR: periodical</hasNote>
+                </node>
+                <node id="knqa_co_brochure" label="Brochure">
+                    <hasNote>COAR: text</hasNote>
+                </node>
+                <node id="knqa_co_press_release" label="Press release">
+                    <hasNote>COAR: text</hasNote>
+                </node>
+                <node id="knqa_co_speech" label="Speech">
+                    <hasNote>COAR: lecture</hasNote>
+                </node>
+                <node id="knqa_co_presentation" label="Presentation">
+                    <hasNote>COAR: lecture</hasNote>
+                </node>
+                <node id="knqa_co_infographic" label="Infographic">
+                    <hasNote>COAR: still image</hasNote>
+                </node>
+                <node id="knqa_co_photograph" label="Photograph">
+                    <hasNote>COAR: still image</hasNote>
+                </node>
+                <node id="knqa_co_video" label="Video">
+                    <hasNote>COAR: video</hasNote>
+                </node>
+                <node id="knqa_co_audio_recording" label="Audio recording">
+                    <hasNote>COAR: sound</hasNote>
+                </node>
+            </isComposedBy>
+        </node>
+        <node id="knqa_em" label="Events &amp; Meetings" selectable="false">
+            <isComposedBy>
+                <node id="knqa_em_workshop_report" label="Workshop report">
+                    <hasNote>COAR: report</hasNote>
+                </node>
+                <node id="knqa_em_conference_report" label="Conference report">
+                    <hasNote>COAR: report</hasNote>
+                </node>
+                <node id="knqa_em_minutes" label="Minutes">
+                    <hasNote>COAR: text</hasNote>
+                </node>
+                <node id="knqa_em_event_programme" label="Event programme">
+                    <hasNote>COAR: text</hasNote>
+                </node>
+            </isComposedBy>
+        </node>
+        <node id="knqa_tg" label="Training &amp; Guidance" selectable="false">
+            <isComposedBy>
+                <node id="knqa_tg_handbook" label="Handbook">
+                    <hasNote>COAR: text</hasNote>
+                </node>
+                <node id="knqa_tg_training_manual" label="Training manual">
+                    <hasNote>COAR: text</hasNote>
+                </node>
+                <node id="knqa_tg_toolkit" label="Toolkit">
+                    <hasNote>COAR: text</hasNote>
+                </node>
+                <node id="knqa_tg_template" label="Template">
+                    <hasNote>COAR: text</hasNote>
+                </node>
+            </isComposedBy>
+        </node>
+        <node id="knqa_ot" label="Other" selectable="false">
+            <isComposedBy>
+                <node id="knqa_ot_other" label="Other">
+                    <hasNote>COAR: other</hasNote>
+                </node>
+            </isComposedBy>
+        </node>
+    </isComposedBy>
+</node>

@@ -158,12 +158,13 @@
                     <dc-schema>dc</dc-schema>
                     <dc-element>type</dc-element>
                     <dc-qualifier></dc-qualifier>
-                    <repeatable>true</repeatable>
+                    <repeatable>false</repeatable>
                     <label>Type</label>
-                    <input-type value-pairs-name="common_types">dropdown</input-type>
-                    <hint>Select the type of content of the item.
-                    </hint>
-                    <required>You must choose at least one type.</required>
+                    <!-- KNQA: document types from controlled-vocabularies/knqa_types.xml (see KNQA_CONFIG.md) -->
+                    <input-type>onebox</input-type>
+                    <hint>Start typing the document type (for example "standard" or "report"), or click the search icon to browse all KNQA document types by group.</hint>
+                    <required>You must choose the document type.</required>
+                    <vocabulary closed="true">knqa_types</vocabulary>
                 </field>
             </row>
             <row>
@@ -360,13 +361,13 @@
                     <dc-schema>dc</dc-schema>
                     <dc-element>type</dc-element>
                     <dc-qualifier></dc-qualifier>
-                    <repeatable>true</repeatable>
+                    <repeatable>false</repeatable>
                     <label>Type</label>
-                    <input-type value-pairs-name="common_types">dropdown</input-type>
-                    <hint>Select the type(s) of content of the item. To select more than one value in the list, you may
-                        have to hold down the "CTRL" or "Shift" key.
-                    </hint>
-                    <required>You must choose at least one type.</required>
+                    <!-- KNQA: document types from controlled-vocabularies/knqa_types.xml (see KNQA_CONFIG.md) -->
+                    <input-type>onebox</input-type>
+                    <hint>Start typing the document type (for example "standard" or "report"), or click the search icon to browse all KNQA document types by group.</hint>
+                    <required>You must choose the document type.</required>
+                    <vocabulary closed="true">knqa_types</vocabulary>
                 </field>
             </row>
             <row>

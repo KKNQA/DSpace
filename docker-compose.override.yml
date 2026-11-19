@@ -11,3 +11,5 @@ services:
       rest__P__cors__P__allowed__D__origins: 'http://localhost:4000'
       # No self-registration (same as local.cfg.knqa-production.EXAMPLE)
       user__P__registration: 'false'
+      # Describe > Type stores only the KNQA document type, not its group (see KNQA_CONFIG.md)
+      vocabulary__P__plugin__P__knqa_types__P__hierarchy__P__store: 'false'

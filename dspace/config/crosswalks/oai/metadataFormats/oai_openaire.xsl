@@ -1468,6 +1468,173 @@
             <xsl:when test="$lc_dc_type = 'software'">
                 <xsl:text>software</xsl:text>
             </xsl:when>
+            <!-- KNQA types (generated from controlled-vocabularies/knqa_types.xml; see KNQA_CONFIG.md) -->
+            <xsl:when test="$lc_dc_type = 'qualification standard'">
+                <xsl:text>literature</xsl:text>
+            </xsl:when>
+            <xsl:when test="$lc_dc_type = 'occupational standard'">
+                <xsl:text>literature</xsl:text>
+            </xsl:when>
+            <xsl:when test="$lc_dc_type = 'curriculum'">
+                <xsl:text>literature</xsl:text>
+            </xsl:when>
+            <xsl:when test="$lc_dc_type = 'level descriptors'">
+                <xsl:text>literature</xsl:text>
+            </xsl:when>
+            <xsl:when test="$lc_dc_type = 'assessment guidelines'">
+                <xsl:text>literature</xsl:text>
+            </xsl:when>
+            <xsl:when test="$lc_dc_type = 'accreditation report'">
+                <xsl:text>literature</xsl:text>
+            </xsl:when>
+            <xsl:when test="$lc_dc_type = 'quality audit report'">
+                <xsl:text>literature</xsl:text>
+            </xsl:when>
+            <xsl:when test="$lc_dc_type = 'compliance report'">
+                <xsl:text>literature</xsl:text>
+            </xsl:when>
+            <xsl:when test="$lc_dc_type = 'register of qualifications'">
+                <xsl:text>literature</xsl:text>
+            </xsl:when>
+            <xsl:when test="$lc_dc_type = 'act'">
+                <xsl:text>literature</xsl:text>
+            </xsl:when>
+            <xsl:when test="$lc_dc_type = 'bill'">
+                <xsl:text>literature</xsl:text>
+            </xsl:when>
+            <xsl:when test="$lc_dc_type = 'regulations'">
+                <xsl:text>literature</xsl:text>
+            </xsl:when>
+            <xsl:when test="$lc_dc_type = 'gazette notice'">
+                <xsl:text>literature</xsl:text>
+            </xsl:when>
+            <xsl:when test="$lc_dc_type = 'policy'">
+                <xsl:text>literature</xsl:text>
+            </xsl:when>
+            <xsl:when test="$lc_dc_type = 'framework'">
+                <xsl:text>literature</xsl:text>
+            </xsl:when>
+            <xsl:when test="$lc_dc_type = 'guidelines'">
+                <xsl:text>literature</xsl:text>
+            </xsl:when>
+            <xsl:when test="$lc_dc_type = 'standard operating procedure'">
+                <xsl:text>literature</xsl:text>
+            </xsl:when>
+            <xsl:when test="$lc_dc_type = 'procedures manual'">
+                <xsl:text>literature</xsl:text>
+            </xsl:when>
+            <xsl:when test="$lc_dc_type = 'circular'">
+                <xsl:text>literature</xsl:text>
+            </xsl:when>
+            <xsl:when test="$lc_dc_type = 'service charter'">
+                <xsl:text>literature</xsl:text>
+            </xsl:when>
+            <xsl:when test="$lc_dc_type = 'code of conduct'">
+                <xsl:text>literature</xsl:text>
+            </xsl:when>
+            <xsl:when test="$lc_dc_type = 'strategic plan'">
+                <xsl:text>literature</xsl:text>
+            </xsl:when>
+            <xsl:when test="$lc_dc_type = 'annual report'">
+                <xsl:text>literature</xsl:text>
+            </xsl:when>
+            <xsl:when test="$lc_dc_type = 'work plan'">
+                <xsl:text>literature</xsl:text>
+            </xsl:when>
+            <xsl:when test="$lc_dc_type = 'performance contract'">
+                <xsl:text>literature</xsl:text>
+            </xsl:when>
+            <xsl:when test="$lc_dc_type = 'performance report'">
+                <xsl:text>literature</xsl:text>
+            </xsl:when>
+            <xsl:when test="$lc_dc_type = 'financial statement'">
+                <xsl:text>literature</xsl:text>
+            </xsl:when>
+            <xsl:when test="$lc_dc_type = 'audit report'">
+                <xsl:text>literature</xsl:text>
+            </xsl:when>
+            <xsl:when test="$lc_dc_type = 'research report'">
+                <xsl:text>literature</xsl:text>
+            </xsl:when>
+            <xsl:when test="$lc_dc_type = 'policy brief'">
+                <xsl:text>literature</xsl:text>
+            </xsl:when>
+            <xsl:when test="$lc_dc_type = 'working paper'">
+                <xsl:text>literature</xsl:text>
+            </xsl:when>
+            <xsl:when test="$lc_dc_type = 'discussion paper'">
+                <xsl:text>literature</xsl:text>
+            </xsl:when>
+            <xsl:when test="$lc_dc_type = 'survey report'">
+                <xsl:text>literature</xsl:text>
+            </xsl:when>
+            <xsl:when test="$lc_dc_type = 'tracer study'">
+                <xsl:text>literature</xsl:text>
+            </xsl:when>
+            <xsl:when test="$lc_dc_type = 'labour market analysis'">
+                <xsl:text>literature</xsl:text>
+            </xsl:when>
+            <xsl:when test="$lc_dc_type = 'baseline study'">
+                <xsl:text>literature</xsl:text>
+            </xsl:when>
+            <xsl:when test="$lc_dc_type = 'evaluation report'">
+                <xsl:text>literature</xsl:text>
+            </xsl:when>
+            <xsl:when test="$lc_dc_type = 'concept note'">
+                <xsl:text>literature</xsl:text>
+            </xsl:when>
+            <xsl:when test="$lc_dc_type = 'book chapter'">
+                <xsl:text>literature</xsl:text>
+            </xsl:when>
+            <xsl:when test="$lc_dc_type = 'conference paper'">
+                <xsl:text>literature</xsl:text>
+            </xsl:when>
+            <xsl:when test="$lc_dc_type = 'conference proceedings'">
+                <xsl:text>literature</xsl:text>
+            </xsl:when>
+            <xsl:when test="$lc_dc_type = 'memorandum of understanding'">
+                <xsl:text>literature</xsl:text>
+            </xsl:when>
+            <xsl:when test="$lc_dc_type = 'agreement'">
+                <xsl:text>literature</xsl:text>
+            </xsl:when>
+            <xsl:when test="$lc_dc_type = 'communiqué'">
+                <xsl:text>literature</xsl:text>
+            </xsl:when>
+            <xsl:when test="$lc_dc_type = 'newsletter'">
+                <xsl:text>literature</xsl:text>
+            </xsl:when>
+            <xsl:when test="$lc_dc_type = 'brochure'">
+                <xsl:text>literature</xsl:text>
+            </xsl:when>
+            <xsl:when test="$lc_dc_type = 'press release'">
+                <xsl:text>literature</xsl:text>
+            </xsl:when>
+            <xsl:when test="$lc_dc_type = 'workshop report'">
+                <xsl:text>literature</xsl:text>
+            </xsl:when>
+            <xsl:when test="$lc_dc_type = 'conference report'">
+                <xsl:text>literature</xsl:text>
+            </xsl:when>
+            <xsl:when test="$lc_dc_type = 'minutes'">
+                <xsl:text>literature</xsl:text>
+            </xsl:when>
+            <xsl:when test="$lc_dc_type = 'event programme'">
+                <xsl:text>literature</xsl:text>
+            </xsl:when>
+            <xsl:when test="$lc_dc_type = 'handbook'">
+                <xsl:text>literature</xsl:text>
+            </xsl:when>
+            <xsl:when test="$lc_dc_type = 'training manual'">
+                <xsl:text>literature</xsl:text>
+            </xsl:when>
+            <xsl:when test="$lc_dc_type = 'toolkit'">
+                <xsl:text>literature</xsl:text>
+            </xsl:when>
+            <xsl:when test="$lc_dc_type = 'template'">
+                <xsl:text>literature</xsl:text>
+            </xsl:when>
+            <!-- end KNQA types -->
             <xsl:otherwise>
                 <xsl:text>other research product</xsl:text>
             </xsl:otherwise>
@@ -1662,6 +1829,176 @@
             <xsl:when test="$lc_dc_type = 'research article'">
                 <xsl:text>http://purl.org/coar/resource_type/c_2df8fbb1</xsl:text>
             </xsl:when>
+            <!-- KNQA types (generated from controlled-vocabularies/knqa_types.xml; see KNQA_CONFIG.md) -->
+            <xsl:when test="$lc_dc_type = 'qualification standard'">
+                <xsl:text>http://purl.org/coar/resource_type/c_71bd</xsl:text>
+            </xsl:when>
+            <xsl:when test="$lc_dc_type = 'occupational standard'">
+                <xsl:text>http://purl.org/coar/resource_type/c_71bd</xsl:text>
+            </xsl:when>
+            <xsl:when test="$lc_dc_type = 'curriculum'">
+                <xsl:text>http://purl.org/coar/resource_type/c_71bd</xsl:text>
+            </xsl:when>
+            <xsl:when test="$lc_dc_type = 'level descriptors'">
+                <xsl:text>http://purl.org/coar/resource_type/c_71bd</xsl:text>
+            </xsl:when>
+            <xsl:when test="$lc_dc_type = 'assessment guidelines'">
+                <xsl:text>http://purl.org/coar/resource_type/c_71bd</xsl:text>
+            </xsl:when>
+            <xsl:when test="$lc_dc_type = 'accreditation report'">
+                <xsl:text>http://purl.org/coar/resource_type/c_93fc</xsl:text>
+            </xsl:when>
+            <xsl:when test="$lc_dc_type = 'quality audit report'">
+                <xsl:text>http://purl.org/coar/resource_type/c_93fc</xsl:text>
+            </xsl:when>
+            <xsl:when test="$lc_dc_type = 'compliance report'">
+                <xsl:text>http://purl.org/coar/resource_type/c_93fc</xsl:text>
+            </xsl:when>
+            <xsl:when test="$lc_dc_type = 'register of qualifications'">
+                <xsl:text>http://purl.org/coar/resource_type/c_18cf</xsl:text>
+            </xsl:when>
+            <xsl:when test="$lc_dc_type = 'act'">
+                <xsl:text>http://purl.org/coar/resource_type/c_18cf</xsl:text>
+            </xsl:when>
+            <xsl:when test="$lc_dc_type = 'bill'">
+                <xsl:text>http://purl.org/coar/resource_type/c_18cf</xsl:text>
+            </xsl:when>
+            <xsl:when test="$lc_dc_type = 'regulations'">
+                <xsl:text>http://purl.org/coar/resource_type/c_18cf</xsl:text>
+            </xsl:when>
+            <xsl:when test="$lc_dc_type = 'gazette notice'">
+                <xsl:text>http://purl.org/coar/resource_type/c_18cf</xsl:text>
+            </xsl:when>
+            <xsl:when test="$lc_dc_type = 'policy'">
+                <xsl:text>http://purl.org/coar/resource_type/c_18cf</xsl:text>
+            </xsl:when>
+            <xsl:when test="$lc_dc_type = 'framework'">
+                <xsl:text>http://purl.org/coar/resource_type/c_18cf</xsl:text>
+            </xsl:when>
+            <xsl:when test="$lc_dc_type = 'guidelines'">
+                <xsl:text>http://purl.org/coar/resource_type/c_18cf</xsl:text>
+            </xsl:when>
+            <xsl:when test="$lc_dc_type = 'standard operating procedure'">
+                <xsl:text>http://purl.org/coar/resource_type/c_18cf</xsl:text>
+            </xsl:when>
+            <xsl:when test="$lc_dc_type = 'procedures manual'">
+                <xsl:text>http://purl.org/coar/resource_type/c_18cf</xsl:text>
+            </xsl:when>
+            <xsl:when test="$lc_dc_type = 'circular'">
+                <xsl:text>http://purl.org/coar/resource_type/c_18cf</xsl:text>
+            </xsl:when>
+            <xsl:when test="$lc_dc_type = 'service charter'">
+                <xsl:text>http://purl.org/coar/resource_type/c_18cf</xsl:text>
+            </xsl:when>
+            <xsl:when test="$lc_dc_type = 'code of conduct'">
+                <xsl:text>http://purl.org/coar/resource_type/c_18cf</xsl:text>
+            </xsl:when>
+            <xsl:when test="$lc_dc_type = 'strategic plan'">
+                <xsl:text>http://purl.org/coar/resource_type/c_18cf</xsl:text>
+            </xsl:when>
+            <xsl:when test="$lc_dc_type = 'annual report'">
+                <xsl:text>http://purl.org/coar/resource_type/c_93fc</xsl:text>
+            </xsl:when>
+            <xsl:when test="$lc_dc_type = 'work plan'">
+                <xsl:text>http://purl.org/coar/resource_type/c_18cf</xsl:text>
+            </xsl:when>
+            <xsl:when test="$lc_dc_type = 'performance contract'">
+                <xsl:text>http://purl.org/coar/resource_type/c_18cf</xsl:text>
+            </xsl:when>
+            <xsl:when test="$lc_dc_type = 'performance report'">
+                <xsl:text>http://purl.org/coar/resource_type/c_93fc</xsl:text>
+            </xsl:when>
+            <xsl:when test="$lc_dc_type = 'financial statement'">
+                <xsl:text>http://purl.org/coar/resource_type/c_93fc</xsl:text>
+            </xsl:when>
+            <xsl:when test="$lc_dc_type = 'audit report'">
+                <xsl:text>http://purl.org/coar/resource_type/c_93fc</xsl:text>
+            </xsl:when>
+            <xsl:when test="$lc_dc_type = 'policy brief'">
+                <xsl:text>http://purl.org/coar/resource_type/c_186u</xsl:text>
+            </xsl:when>
+            <xsl:when test="$lc_dc_type = 'discussion paper'">
+                <xsl:text>http://purl.org/coar/resource_type/c_8042</xsl:text>
+            </xsl:when>
+            <xsl:when test="$lc_dc_type = 'survey report'">
+                <xsl:text>http://purl.org/coar/resource_type/c_18ws</xsl:text>
+            </xsl:when>
+            <xsl:when test="$lc_dc_type = 'tracer study'">
+                <xsl:text>http://purl.org/coar/resource_type/c_18ws</xsl:text>
+            </xsl:when>
+            <xsl:when test="$lc_dc_type = 'labour market analysis'">
+                <xsl:text>http://purl.org/coar/resource_type/c_18ws</xsl:text>
+            </xsl:when>
+            <xsl:when test="$lc_dc_type = 'baseline study'">
+                <xsl:text>http://purl.org/coar/resource_type/c_18ws</xsl:text>
+            </xsl:when>
+            <xsl:when test="$lc_dc_type = 'evaluation report'">
+                <xsl:text>http://purl.org/coar/resource_type/c_93fc</xsl:text>
+            </xsl:when>
+            <xsl:when test="$lc_dc_type = 'concept note'">
+                <xsl:text>http://purl.org/coar/resource_type/c_baaf</xsl:text>
+            </xsl:when>
+            <xsl:when test="$lc_dc_type = 'book chapter'">
+                <xsl:text>http://purl.org/coar/resource_type/c_3248</xsl:text>
+            </xsl:when>
+            <xsl:when test="$lc_dc_type = 'memorandum of understanding'">
+                <xsl:text>http://purl.org/coar/resource_type/c_18cf</xsl:text>
+            </xsl:when>
+            <xsl:when test="$lc_dc_type = 'agreement'">
+                <xsl:text>http://purl.org/coar/resource_type/c_18cf</xsl:text>
+            </xsl:when>
+            <xsl:when test="$lc_dc_type = 'communiqué'">
+                <xsl:text>http://purl.org/coar/resource_type/c_18cf</xsl:text>
+            </xsl:when>
+            <xsl:when test="$lc_dc_type = 'newsletter'">
+                <xsl:text>http://purl.org/coar/resource_type/c_2659</xsl:text>
+            </xsl:when>
+            <xsl:when test="$lc_dc_type = 'brochure'">
+                <xsl:text>http://purl.org/coar/resource_type/c_18cf</xsl:text>
+            </xsl:when>
+            <xsl:when test="$lc_dc_type = 'press release'">
+                <xsl:text>http://purl.org/coar/resource_type/c_18cf</xsl:text>
+            </xsl:when>
+            <xsl:when test="$lc_dc_type = 'speech'">
+                <xsl:text>http://purl.org/coar/resource_type/c_8544</xsl:text>
+            </xsl:when>
+            <xsl:when test="$lc_dc_type = 'presentation'">
+                <xsl:text>http://purl.org/coar/resource_type/c_8544</xsl:text>
+            </xsl:when>
+            <xsl:when test="$lc_dc_type = 'infographic'">
+                <xsl:text>http://purl.org/coar/resource_type/c_ecc8</xsl:text>
+            </xsl:when>
+            <xsl:when test="$lc_dc_type = 'photograph'">
+                <xsl:text>http://purl.org/coar/resource_type/c_ecc8</xsl:text>
+            </xsl:when>
+            <xsl:when test="$lc_dc_type = 'audio recording'">
+                <xsl:text>http://purl.org/coar/resource_type/c_18cc</xsl:text>
+            </xsl:when>
+            <xsl:when test="$lc_dc_type = 'workshop report'">
+                <xsl:text>http://purl.org/coar/resource_type/c_93fc</xsl:text>
+            </xsl:when>
+            <xsl:when test="$lc_dc_type = 'conference report'">
+                <xsl:text>http://purl.org/coar/resource_type/c_93fc</xsl:text>
+            </xsl:when>
+            <xsl:when test="$lc_dc_type = 'minutes'">
+                <xsl:text>http://purl.org/coar/resource_type/c_18cf</xsl:text>
+            </xsl:when>
+            <xsl:when test="$lc_dc_type = 'event programme'">
+                <xsl:text>http://purl.org/coar/resource_type/c_18cf</xsl:text>
+            </xsl:when>
+            <xsl:when test="$lc_dc_type = 'handbook'">
+                <xsl:text>http://purl.org/coar/resource_type/c_18cf</xsl:text>
+            </xsl:when>
+            <xsl:when test="$lc_dc_type = 'training manual'">
+                <xsl:text>http://purl.org/coar/resource_type/c_18cf</xsl:text>
+            </xsl:when>
+            <xsl:when test="$lc_dc_type = 'toolkit'">
+                <xsl:text>http://purl.org/coar/resource_type/c_18cf</xsl:text>
+            </xsl:when>
+            <xsl:when test="$lc_dc_type = 'template'">
+                <xsl:text>http://purl.org/coar/resource_type/c_18cf</xsl:text>
+            </xsl:when>
+            <!-- end KNQA types -->
             <!-- other -->
             <xsl:otherwise>
                 <xsl:text>http://purl.org/coar/resource_type/c_1843</xsl:text>
