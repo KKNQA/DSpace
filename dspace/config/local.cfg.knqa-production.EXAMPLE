@@ -5,9 +5,9 @@
 dspace.dir = /dspace
 
 # Public URLs — backend (REST) and user interface
-dspace.server.url = https://repository.knqa.go.ke/server
+dspace.server.url = https://erepository.knqa.go.ke/server
 dspace.server.ssr.url = ${dspace.server.url}
-dspace.ui.url = https://repository.knqa.go.ke
+dspace.ui.url = https://erepository.knqa.go.ke
 
 dspace.name = KNQA Digital Repository
 
