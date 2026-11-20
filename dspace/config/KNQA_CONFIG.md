@@ -23,12 +23,13 @@ so an upgrade can check them.
 
 Settings that must be in the server's `local.cfg` (they're already in the template):
 `user.registration = false`, `feedback.recipient`, `oai.identifier.prefix`, and
-`vocabulary.plugin.knqa_types.hierarchy.store = false`.
+`vocabulary.plugin.knqa_types.hierarchy.store = false` and `vocabulary.plugin.knqa_types.hierarchy.preloadLevel = 2`.
 
 ## Document types (`knqa_types`)
 
-- Submitters type part of a name ("standard", "report") or browse the groups. Only listed types are
-  accepted. Groups (`selectable="false"`) can't be chosen.
+- Clicking Describe → Type opens a picker: a search box ("standard", "report") above the groups
+  (already expanded: `hierarchy.preloadLevel = 2`). Only listed types are accepted; groups
+  (`selectable="false"`) can't be chosen.
 - Items store only the type label, e.g. `dc.type = Occupational standard`. The search "Item type"
   filter and the homepage "Research Papers" and "Reports" tiles use these labels; the tiles' lists are in
   the Angular theme (`src/themes/knqa/app/home-page/repository-insights/repository-insights.component.ts`).

@@ -13,3 +13,4 @@ services:
       user__P__registration: 'false'
       # Describe > Type stores only the KNQA document type, not its group (see KNQA_CONFIG.md)
       vocabulary__P__plugin__P__knqa_types__P__hierarchy__P__store: 'false'
+      vocabulary__P__plugin__P__knqa_types__P__hierarchy__P__preloadLevel: '2'

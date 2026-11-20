@@ -41,6 +41,8 @@ user.registration = false
 # Describe > Type uses the KNQA document-type vocabulary (controlled-vocabularies/knqa_types.xml).
 # Store only the type ("Occupational standard"), not its group path.
 vocabulary.plugin.knqa_types.hierarchy.store = false
+# Open the type picker with the groups already listed
+vocabulary.plugin.knqa_types.hierarchy.preloadLevel = 2
 
 # OAI-PMH identifiers (oai:<prefix>:<handle>). Keep this value: harvesters store it.
 oai.identifier.prefix = erepository.knqa.go.ke
